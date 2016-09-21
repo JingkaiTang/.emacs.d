@@ -21,23 +21,15 @@
 (global-set-key (kbd "C-c t") 'youdao-dictionary-search-at-point+)
 
 ;; evil
+(setq evil-toggle-key "")
 (require 'evil)
 (evil-mode 1)
 (setcdr evil-insert-state-map nil)
 (define-key evil-insert-state-map [escape] 'evil-normal-state)
 
 (custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
     (evil youdao-dictionary relative-line-numbers linum-relative))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+(custom-set-faces)
