@@ -253,6 +253,8 @@ explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   )
 
+(spacemacs/set-leader-keys "o y" 'youdao-dictionary-search-at-point+)
+
 (setq custom-file (expand-file-name "custom.el" dotspacemacs-directory))
 (load custom-file 'no-error 'no-message)
 
