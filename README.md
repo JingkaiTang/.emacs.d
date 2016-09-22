@@ -1,2 +1,2 @@
-# .emacs.d
-My emacs confgs~
+# .spacemacs.d
+My spacemacs confgs~
