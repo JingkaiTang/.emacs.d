@@ -242,6 +242,9 @@ executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
+  ;; evil
+  (setq evil-toggle-key "")
+  ;; mirrors
   (setq configuration-layer--elpa-archives
         '(("melpa-cn" . "https://elpa.zilongshanren.com/melpa/")
           ("org-cn"   . "https://elpa.zilongshanren.com/org/")
